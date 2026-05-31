@@ -57,48 +57,7 @@ What exact condition keeps loop alive?
 What exact event exits loop?
 What variables change each iteration?
 
-Exercise 2 — Positive Number Validator
+### Dict
 
-Repeat until user enters positive number.
-
-Goal:
-understand:
-
-conditions
-negation
-retry loops
-
-Exercise 3 — Password Retry Loop
-
-Keep asking until password equals specific string.
-
-Goal:
-understand:
-
-loop lifecycle
-boolean conditions
-
-Exercise 4 — Number Range Checker
-Repeat until:
-1 <= number <= 10
-
-Goal:
-understand:
-
-chained comparisons
-valid vs invalid conditions
-
-Exercise — Safe Integer Input System
-Goal
-
-Keep asking user for input until ALL these conditions are satisfied:
-
-Input must not be empty
-Input must not be only spaces
-Input must successfully convert to integer
-Integer must be positive
-
-Only then:
-
-print accepted number
-exit loop
+if you have dynamic key inside nested dict, you must convert to that exact value to list and then get the value using: can put any value in place of zero to get the idex
+list(dict["dynamic_key"].values())[0]

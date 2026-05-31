@@ -32,31 +32,71 @@
 
 # Exercise — Safe Integer Input System
 #  Input must not be empty, Input must not be only spaces , Input must successfully convert to integer, Integer must be positive
-def main():
-    while True:
-        correct_input = input("Please give me correct input: ")
-        cleaned_input = correct_input.strip()
+# def main():
+#     while True:
+#         correct_input = input("Please give me correct input: ")
+#         cleaned_input = correct_input.strip()
 
-        if cleaned_input == "":
-            print("Your input is empty, please try again")
-            correct_input = cleaned_input
-            continue
+#         if cleaned_input == "":
+#             print("Your input is empty, please try again")
+#             correct_input = cleaned_input
+#             continue
 
-        try:
-            integer_input = int(cleaned_input)
-        except ValueError:
-            print("Not able to convert")
-            continue
+#         try:
+#             integer_input = int(cleaned_input)
+#         except ValueError:
+#             print("Not able to convert")
+#             continue
 
-        if integer_input <= 0:
-            print(
-                "You have put non-positive integer, please give positive integer input"
-            )
-            continue
-        else:
-            print(integer_input)
-            break
+#         if integer_input <= 0:
+#             print(
+#                 "You have put non-positive integer, please give positive integer input"
+#             )
+#             continue
+#         else:
+#             print(integer_input)
+#             break
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
+
+
+# dict dynamic nested values
+# food = 0
+# user = {"name": "deva", "expense": {"food": 500}}
+# val = user["expense"]["food"]
+# if val:
+#     food = 700
+#     val += food
+
+#     print(val)
+
+# expense = {}
+
+# while True:
+#     date = input("What is the date today?: ")
+#     category = input("What is the category?: ")
+#     amount = input("What is the amount?: ")
+#     description = input("What is the description?: ")
+
+#     expense = {
+#         "date": date,
+#         "category": {category: {"amount": amount, "description": description}},
+#     }
+
+#     amy = list(expense["category"].values())[0]
+#     mya = amy["amount"]
+
+#     print(mya)
+
+new = [
+    {"id": 1, "data": {"amount": 500, "color": "blue"}},
+    {"id": 2, "data": {"amount": 700, "color": "yellow"}},
+    {"id": 2, "data": {"amount": 300, "color": "blue"}},
+    {"id": 2, "data": {"amount": 400, "color": "green"}},
+]
+total_data_sum = sum(d["data"]["amount"] for d in new)
+print(total_data_sum)
+largest_sum = max(d["data"]["amount"] for d in new)
+print(largest_sum)
