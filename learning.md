@@ -61,3 +61,23 @@ What variables change each iteration?
 
 if you have dynamic key inside nested dict, you must convert to that exact value to list and then get the value using: can put any value in place of zero to get the idex
 list(dict["dynamic_key"].values())[0]
+
+### ValueError: too many values to unpack (expected 2)
+
+occurs when you attempt to assign elements from an iterable (like a list, tuple, or string) to variables, but the iterable contains more items than there are variables defined on the left side of the assignment.
+
+## List/Sequence Unpacking:
+
+Assigning a list with more than two elements to two variables. Fix: Add a third variable or use an underscore _ as a throwaway variable for the extra item (e.g., a, b, _ = [1, 2, 3]).
+
+## Dictionary Iteration:
+
+Iterating over a dictionary directly in a for loop (e.g., for k, v in my_dict:) yields only keys. If a key is a string with more than two characters, Python tries to unpack the characters into two variables. Fix: Use the .items() method (e.g., for k, v in my_dict.items()
+
+## Function Returns:
+
+A function returns a tuple or list with more than two items, but you only capture two. Fix: Capture all returned values or use the asterisk * operator to collect extras into a list (e.g., a, b, *rest = func()).
+
+## String Unpacking:
+
+Attempting to unpack a string directly splits it into individual characters. Fix: Split the string first using .split(',') if it contains delimited values.
