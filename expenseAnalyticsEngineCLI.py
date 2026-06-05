@@ -1,5 +1,7 @@
+# Refactor into functions
+
+
 def main():
-    income = 50000
     expense = []
     entry = {}
 

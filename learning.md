@@ -81,3 +81,18 @@ A function returns a tuple or list with more than two items, but you only captur
 ## String Unpacking:
 
 Attempting to unpack a string directly splits it into individual characters. Fix: Split the string first using .split(',') if it contains delimited values.
+
+### For every loops you write
+
+LOOPS
+INVARIANTS
+EXIT CONDITIONS
+
+### For every Function
+
+Function Name:
+Purpose:
+Inputs:
+Outputs:
+Transformation:
+Failure Cases:
