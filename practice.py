@@ -1,102 +1,183 @@
-# def main():
-#     user_input = input("What is user input? ")
+# # def main():
+# #     user_input = input("What is user input? ")
 
-#     if not user_input:
-#         print("empty")
-#     else:
-#         print("not empty")
+# #     if not user_input:
+# #         print("empty")
+# #     else:
+# #         print("not empty")
+
+
+# # if __name__ == "__main__":
+# #     main()
+
+
+# # positive number validator,
+# # def main():
+# #     number_input = input("Please write positive number ")
+
+# #     if number_input:
+# #         positive_number = int(number_input)
+# #         while positive_number <= 0:
+# #             print("It is not positive number")
+# #             positive_number = int(input("Please write positive number "))
+# #         else:
+# #             print("You have written positive number")
+# #     else:
+# #         print("error, please try again")
+
+
+# # if __name__ == "__main__":
+# #     main()
+
+
+# # Exercise — Safe Integer Input System
+# #  Input must not be empty, Input must not be only spaces , Input must successfully convert to integer, Integer must be positive
+# # def main():
+# #     while True:
+# #         correct_input = input("Please give me correct input: ")
+# #         cleaned_input = correct_input.strip()
+
+# #         if cleaned_input == "":
+# #             print("Your input is empty, please try again")
+# #             correct_input = cleaned_input
+# #             continue
+
+# #         try:
+# #             integer_input = int(cleaned_input)
+# #         except ValueError:
+# #             print("Not able to convert")
+# #             continue
+
+# #         if integer_input <= 0:
+# #             print(
+# #                 "You have put non-positive integer, please give positive integer input"
+# #             )
+# #             continue
+# #         else:
+# #             print(integer_input)
+# #             break
+
+
+# # if __name__ == "__main__":
+# #     main()
+
+
+# # dict dynamic nested values
+# # food = 0
+# # user = {"name": "deva", "expense": {"food": 500}}
+# # val = user["expense"]["food"]
+# # if val:
+# #     food = 700
+# #     val += food
+
+# #     print(val)
+
+# # expense = {}
+
+# # while True:
+# #     date = input("What is the date today?: ")
+# #     category = input("What is the category?: ")
+# #     amount = input("What is the amount?: ")
+# #     description = input("What is the description?: ")
+
+# #     expense = {
+# #         "date": date,
+# #         "category": {category: {"amount": amount, "description": description}},
+# #     }
+
+# #     amy = list(expense["category"].values())[0]
+# #     mya = amy["amount"]
+
+# #     print(mya)
+
+# # new = [
+# #     {"id": 1, "data": {"amount": 500, "color": "blue"}},
+# #     {"id": 2, "data": {"amount": 700, "color": "yellow"}},
+# #     {"id": 2, "data": {"amount": 300, "color": "blue"}},
+# #     {"id": 2, "data": {"amount": 400, "color": "green"}},
+# # ]
+# # total_data_sum = sum(d["data"]["amount"] for d in new)
+# # print(total_data_sum)
+# # largest_sum = max(d["data"]["amount"] for d in new)
+# # print(largest_sum)
+
+
+# def main():
+#     new = [
+#         {"id": "Deva", "amount": 500},
+#         {"id": "Peter", "amount": 700},
+#         {"id": "Doe", "amount": 300},
+#         {"id": "Amy", "amount": 400},
+#     ]
+
+#     def average(new):
+#         scores = []
+#         for item in new:
+#             for _, val in item.items():
+#                 if not isinstance(val, str):
+#                     scores.append(val)
+
+#         scores.sort()
+#         largest = scores[-1]
+#         return largest
+
+#     largest
 
 
 # if __name__ == "__main__":
 #     main()
 
 
-# positive number validator,
-# def main():
-#     number_input = input("Please write positive number ")
+# # sum = new[0]["amount"]
+# # print(sum)
 
-#     if number_input:
-#         positive_number = int(number_input)
-#         while positive_number <= 0:
-#             print("It is not positive number")
-#             positive_number = int(input("Please write positive number "))
-#         else:
-#             print("You have written positive number")
-#     else:
-#         print("error, please try again")
-
-
-# if __name__ == "__main__":
-#     main()
+# new = [
+#     {"id": "Deva", "amount": 500},
+#     {"id": "Peter", "amount": 700},
+#     {"id": "Doe", "amount": 300},
+#     {"id": "Amy", "amount": 400},
+# ]
+# all_amount = []
+# for item in new:
+#     hello = item["amount"]
+#     all_amount.append(hello)
 
 
-# Exercise — Safe Integer Input System
-#  Input must not be empty, Input must not be only spaces , Input must successfully convert to integer, Integer must be positive
-# def main():
-#     while True:
-#         correct_input = input("Please give me correct input: ")
-#         cleaned_input = correct_input.strip()
+# print(all_amount)
 
-#         if cleaned_input == "":
-#             print("Your input is empty, please try again")
-#             correct_input = cleaned_input
-#             continue
-
-#         try:
-#             integer_input = int(cleaned_input)
-#         except ValueError:
-#             print("Not able to convert")
-#             continue
-
-#         if integer_input <= 0:
-#             print(
-#                 "You have put non-positive integer, please give positive integer input"
-#             )
-#             continue
-#         else:
-#             print(integer_input)
-#             break
+# result = {item["id"]: item.get("amount", None) for item in new if id in item}
 
 
-# if __name__ == "__main__":
-#     main()
+# single = []
+# for item in new:
+#     for _, val in item.items():
+#         single.append(val)
+
+# print(single)
+
+# me = [each for each in new if each["amount"] >= 500]
+# print(me)
 
 
-# dict dynamic nested values
-# food = 0
-# user = {"name": "deva", "expense": {"food": 500}}
-# val = user["expense"]["food"]
-# if val:
-#     food = 700
-#     val += food
+def hello():
+    data = [
+        {"level": "INFO", "message": "user logged in"},
+        {"level": "ERROR", "message": "database failed"},
+        {"level": "WARNING", "message": "disk space is running out"},
+        {"level": "INFO", "message": "user logged out"},
+        {"level": "ERROR", "message": "no server"},
+        {"level": "ERROR", "message": "no internet"},
+    ]
 
-#     print(val)
+    for item in data:
+        if "ERROR" in item["level"]:
+            yield item["message"]
 
-# expense = {}
 
-# while True:
-#     date = input("What is the date today?: ")
-#     category = input("What is the category?: ")
-#     amount = input("What is the amount?: ")
-#     description = input("What is the description?: ")
+def main():
+    data = hello()
+    print(data)
 
-#     expense = {
-#         "date": date,
-#         "category": {category: {"amount": amount, "description": description}},
-#     }
 
-#     amy = list(expense["category"].values())[0]
-#     mya = amy["amount"]
-
-#     print(mya)
-
-new = [
-    {"id": 1, "data": {"amount": 500, "color": "blue"}},
-    {"id": 2, "data": {"amount": 700, "color": "yellow"}},
-    {"id": 2, "data": {"amount": 300, "color": "blue"}},
-    {"id": 2, "data": {"amount": 400, "color": "green"}},
-]
-total_data_sum = sum(d["data"]["amount"] for d in new)
-print(total_data_sum)
-largest_sum = max(d["data"]["amount"] for d in new)
-print(largest_sum)
+if __name__ == "__main__":
+    main()
