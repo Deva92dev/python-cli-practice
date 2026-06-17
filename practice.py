@@ -159,25 +159,100 @@
 # print(me)
 
 
-def hello():
-    data = [
-        {"level": "INFO", "message": "user logged in"},
-        {"level": "ERROR", "message": "database failed"},
-        {"level": "WARNING", "message": "disk space is running out"},
-        {"level": "INFO", "message": "user logged out"},
-        {"level": "ERROR", "message": "no server"},
-        {"level": "ERROR", "message": "no internet"},
-    ]
+# def hello():
+#     data = [
+#         {"level": "INFO", "message": "user logged in"},
+#         {"level": "ERROR", "message": "database failed"},
+#         {"level": "WARNING", "message": "disk space is running out"},
+#         {"level": "INFO", "message": "user logged out"},
+#         {"level": "ERROR", "message": "no server"},
+#         {"level": "ERROR", "message": "no internet"},
+#     ]
 
-    for item in data:
-        if "ERROR" in item["level"]:
-            yield item["message"]
-
-
-def main():
-    data = hello()
-    print(data)
+#     for item in data:
+#         if "ERROR" in item["level"]:
+#             yield item["message"]
 
 
-if __name__ == "__main__":
-    main()
+# def main():
+#     data = hello()
+#     print(data)
+
+
+# if __name__ == "__main__":
+#     main()
+
+# class examples
+# class Car:
+#     def __init__(self, distance, color):
+#         self.distance = distance
+#         self.color = color
+
+#     def __str__(self):
+#         return f"The {self.color} car has {self.distance} miles"
+
+
+# car1 = Car(20000, "Blue")
+# car2 = Car(30000, "Red")
+
+# print(car1)
+# print(car2)
+
+
+# class Dog:
+#     species = "Canis familiaris"
+
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+
+#     def __str__(self):
+#         return f"{self.name} is {self.age} years old"
+
+#     def speak(self, sound):
+#         return f"{self.name} says {sound}"
+
+
+# class Pitbull(Dog):
+#     pass
+
+
+# class Rotviller(Dog):
+#     pass
+
+
+# class German(Dog):
+#     pass
+
+
+# miles = Pitbull("miles", 4)
+# teddy = Rotviller("teddy", 9)
+# bruno = German("bruno", 5)
+
+
+# print(teddy.speak("woof"))
+# print(teddy.species)
+
+my_list = [
+    {"id": 1, "fruit": "apple"},
+    {"id": 2, "fruit": "banana"},
+    {"id": 3, "fruit": "kiwi"},
+]
+
+# Remove dictionary where 'id' is 2
+my_list = [item for item in my_list if item.get("id") != 2]
+print(my_list)
+
+# def get_correct_status():
+#     while True:
+#         status = input("Have you borrowed this book?: ")
+#         cleaned_status = status.strip().lower()
+
+#         if cleaned_status in ("true", "y", "yes", "yeah"):
+#             return True
+#         elif cleaned_status in ("false", "n", "no", "not"):
+#             return False
+#         else:
+#             print("Invalid response. Please type 'True' or 'False'.")
+
+#         return cleaned_status
