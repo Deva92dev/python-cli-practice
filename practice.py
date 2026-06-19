@@ -1,3 +1,5 @@
+import csv
+
 # # def main():
 # #     user_input = input("What is user input? ")
 
@@ -233,15 +235,15 @@
 # print(teddy.speak("woof"))
 # print(teddy.species)
 
-my_list = [
-    {"id": 1, "fruit": "apple"},
-    {"id": 2, "fruit": "banana"},
-    {"id": 3, "fruit": "kiwi"},
-]
+# my_list = [
+#     {"id": 1, "fruit": "apple"},
+#     {"id": 2, "fruit": "banana"},
+#     {"id": 3, "fruit": "kiwi"},
+# ]
 
-# Remove dictionary where 'id' is 2
-my_list = [item for item in my_list if item.get("id") != 2]
-print(my_list)
+# # Remove dictionary where 'id' is 2
+# my_list = [item for item in my_list if item.get("id") != 2]
+# print(my_list)
 
 # def get_correct_status():
 #     while True:
@@ -255,4 +257,50 @@ print(my_list)
 #         else:
 #             print("Invalid response. Please type 'True' or 'False'.")
 
-#         return cleaned_status
+# #         return cleaned_status
+
+# level = os.path.isdir()
+# print(level)
+
+data = [
+    {"date": 2, "amount": 800, "category": "Food", "description": "Pizza"},
+    {"date": 5, "amount": 1000, "category": "Veg", "description": "Brinjal"},
+    {"date": 16, "amount": 520, "category": "Veg", "description": "Tomato"},
+    {"date": 19, "amount": 1600, "category": "Travel", "description": "Diesel"},
+    {"date": 21, "amount": 5000, "category": "Shopping", "description": "Clothes"},
+    {"date": 6, "amount": 700, "category": "Sports", "description": "Boll"},
+    {"date": 8, "amount": 1300, "category": "Household", "description": "chores"},
+    {"date": 26, "amount": 2500, "category": "Shopping", "description": "Pants"},
+    {"date": 16, "amount": 1800, "category": "veg", "description": "Vegetables"},
+    {"date": 19, "amount": 1650, "category": "Food", "description": "Burger"},
+    {"date": 21, "amount": 1230, "category": "Vegetables", "description": "Potato"},
+    {"date": 15, "amount": 1200, "category": "Food", "description": "Ice"},
+    {"date": 8, "amount": 1235, "category": "Study", "description": "Books"},
+    {"date": 23, "amount": 2560, "category": "Entertainment", "description": "Cinema"},
+    {"date": 7, "amount": 120, "category": "Household", "description": "Soaps"},
+    {"date": 12, "amount": 1500, "category": "veg", "description": "food"},
+]
+
+# total = [d["amount"] for d in data if "Food" in d["category"]]
+# all_categories = {d["category"] for d in data}
+# print(all_categories)
+# print(sum(total))
+# print(len(data))
+
+# values = (item["category"] for item in data)
+# for name in values:
+#     print(name)
+
+# total_sum = sum(d["amount"] for d in data if "Veg" in d.get("category") == "Veg")
+# print(total_sum)
+
+# largest = max(data, key=lambda x: x["amount"])
+# print(largest)
+csv_file_path = (
+    r"C:\Users\acer\Desktop\AI ML Ideas Build\Python Practice\Basics\expense.csv"
+)
+fieldnames = data[0].keys()
+with open(csv_file_path, "w", newline="", encoding="utf-8") as csvfile:
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    writer.writeheader()
+    writer.writerows(data)

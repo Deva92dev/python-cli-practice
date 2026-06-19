@@ -1,0 +1,86 @@
+[
+    {
+        "date": 1,
+        "amount": 100,
+        "category": "Food",
+        "description": "Pizza"
+    },
+    {
+        "date": 2,
+        "amount": 200,
+        "category": "Extra",
+        "description": "Plant"
+    },
+    {
+        "date": 3,
+        "amount": 300,
+        "category": "Food",
+        "description": "Burger"
+    },
+    {
+        "date": 4,
+        "amount": 400,
+        "category": "Extra",
+        "description": "Water"
+    },
+    {
+        "date": 5,
+        "amount": 500,
+        "category": "Travel",
+        "description": "gas"
+    },
+    {
+        "date": 6,
+        "amount": 500,
+        "category": "Housing",
+        "description": "Paint"
+    },
+    {
+        "date": 10,
+        "amount": 1100,
+        "category": "Extra",
+        "description": "Stoves"
+    },
+    {
+        "date": 12,
+        "amount": 1300,
+        "category": "Extraneous",
+        "description": "Gas"
+    },
+    {
+        "date": 14,
+        "amount": 1600,
+        "category": "Extra",
+        "description": "Fibre"
+    },
+    {
+        "date": 17,
+        "amount": 1900,
+        "category": "FastFood",
+        "description": "Junk"
+    },
+    {
+        "date": 20,
+        "amount": 2000,
+        "category": "Food",
+        "description": "eating"
+    },
+    {
+        "date": 23,
+        "amount": 2300,
+        "category": "Fast Food",
+        "description": "Idli"
+    },
+    {
+        "date": 19,
+        "amount": 2700,
+        "category": "Fast Food",
+        "description": "Matcha"
+    },
+    {
+        "date": 31,
+        "amount": 2500,
+        "category": "Travel",
+        "description": "Diesel"
+    }
+]

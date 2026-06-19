@@ -1,0 +1,15 @@
+date,amount,category,description
+1,100,Food,Pizza
+2,200,Extra,Plant
+3,300,Food,Burger
+4,400,Extra,Water
+5,500,Travel,gas
+6,500,Housing,Paint
+10,1100,Extra,Stoves
+12,1300,Extraneous,Gas
+14,1600,Extra,Fibre
+17,1900,FastFood,Junk
+20,2000,Food,eating
+23,2300,Fast Food,Idli
+19,2700,Fast Food,Matcha
+31,2500,Travel,Diesel
