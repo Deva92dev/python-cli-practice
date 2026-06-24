@@ -1,0 +1,313 @@
+[
+  {
+    "customer_id": 1,
+    "name": "Aarav Sharma",
+    "email": "aarav.sharma@example.com",
+    "city": "Jaipur"
+  },
+  {
+    "customer_id": 1,
+    "name": "Aarav Sharma Rai",
+    "email": "aarav.sharma@example.com",
+    "city": "Jaipur"
+  },
+  {
+    "customer_id": 2,
+    "name": "Vivaan Gupta",
+    "email": "vivaan.gupta@example.com",
+    "city": "Delhi"
+  },
+  {
+    "customer_id": 3,
+    "name": "Aditya Singh",
+    "email": "aditya.singh@example.com",
+    "city": "Mumbai"
+  },
+  {
+    "customer_id": 4,
+    "name": "Krishna Mehta",
+    "email": "krishna.mehta@example.com",
+    "city": "Pune"
+  },
+  {
+    "customer_id": 5,
+    "name": "Ishaan Verma",
+    "email": "ishaan.verma@example.com",
+    "city": "Bengaluru"
+  },
+  {
+    "customer_id": 6,
+    "name": "Rohan Kapoor",
+    "email": "rohan.kapoor@example.com",
+    "city": "Hyderabad"
+  },
+  {
+    "customer_id": 7,
+    "name": "Ananya Jain",
+    "email": "ananya.jain@example.com",
+    "city": "Chennai"
+  },
+  {
+    "customer_id": 8,
+    "name": "Diya Patel",
+    "email": "diya.patel@example.com",
+    "city": "Ahmedabad"
+  },
+  {
+    "customer_id": 9,
+    "name": "Myra Shah",
+    "email": "myra.shah@example.com",
+    "city": "Surat"
+  },
+  {
+    "customer_id": 10,
+    "name": "Saanvi Joshi",
+    "email": "saanvi.joshi@example.com",
+    "city": "Indore"
+  },
+  {
+    "customer_id": 11,
+    "name": "Arjun Nair",
+    "email": "arjun.nair@example.com",
+    "city": "Kochi"
+  },
+  {
+    "customer_id": 12,
+    "name": "Kabir Malhotra",
+    "email": "kabir.malhotra@example.com",
+    "city": "Lucknow"
+  },
+  {
+    "customer_id": 13,
+    "name": "Aisha Khan",
+    "email": "aisha.khan@example.com",
+    "city": "Bhopal"
+  },
+  {
+    "customer_id": 14,
+    "name": "Meera Iyer",
+    "email": "meera.iyer@example.com",
+    "city": "Nagpur"
+  },
+  {
+    "customer_id": 15,
+    "name": "Priya Rao",
+    "email": "priya.rao@example.com",
+    "city": "Mysuru"
+  },
+  {
+    "customer_id": 16,
+    "name": "Rahul Das",
+    "email": "rahul.das@example.com",
+    "city": "Kolkata"
+  },
+  {
+    "customer_id": 17,
+    "name": "Neha Choudhary",
+    "email": "neha.choudhary@example.com",
+    "city": "Jaipur"
+  },
+  {
+    "customer_id": 18,
+    "name": "Karan Bansal",
+    "email": "karan.bansal@example.com",
+    "city": "Delhi"
+  },
+  {
+    "customer_id": 18,
+    "name": "Karan Bansal Singh",
+    "email": "karan.bansal@example.com",
+    "city": "Delhi"
+  },
+  {
+    "customer_id": 19,
+    "name": "Sneha Arora",
+    "email": "sneha.arora@example.com",
+    "city": "Mumbai"
+  },
+  {
+    "name": "Yash Aggarwal",
+    "email": "yash.aggarwal@example.com",
+    "city": "Pune"
+  },
+  {
+    "customer_id": 21,
+    "name": "Nikhil Tiwari",
+    "email": "nikhil.tiwari@example.com",
+    "city": "Bengaluru"
+  },
+  {
+    "customer_id": 22,
+    "name": "Tanya Sethi",
+    "email": "tanya.sethi@example.com",
+    "city": "Hyderabad"
+  },
+  {
+    "name": "Ritika Mishra",
+    "email": "ritika.mishra@example.com",
+    "city": "Chennai"
+  },
+  {
+    "customer_id": 24,
+    "name": "Aman Yadav",
+    "email": "aman.yadav@example.com",
+    "city": "Ahmedabad"
+  },
+  {
+    "customer_id": 24,
+    "name": "Aman Yadav Rai",
+    "email": "aman.yadav@example.com",
+    "city": "Ahmedabad"
+  },
+  {
+    "name": "Pooja Saxena",
+    "email": "pooja.saxena@example.com",
+    "city": "Surat"
+  },
+  {
+    "customer_id": 26,
+    "name": "Harsh Vohra",
+    "email": "harsh.vohra@example.com",
+    "city": "Indore"
+  },
+  {
+    "customer_id": 27,
+    "name": "Shreya Kulkarni",
+    "city": "Kochi"
+  },
+  {
+    "customer_id": 28,
+    "name": "Dev Malviya",
+    "email": "dev.malviya@example.com",
+    "city": "Lucknow"
+  },
+  {
+    "customer_id": 29,
+    "name": "Naina Kapoor",
+    "city": "Bhopal"
+  },
+  {
+    "customer_id": 30,
+    "name": "Riya Bhatt",
+    "email": "riya.bhatt@example.com",
+    "city": "Nagpur"
+  },
+  {
+    "customer_id": 31,
+    "name": "Siddharth Roy",
+    "email": "siddharth.roy@example.com",
+    "city": "Mysuru"
+  },
+  {
+    "customer_id": 32,
+    "name": "Aniket Bose",
+    "email": "aniket.bose@example.com",
+    "city": "Kolkata"
+  },
+  {
+    "customer_id": 33,
+    "name": "Khushi Jain",
+    "email": "khushi.jain@example.com",
+    "city": "Jaipur"
+  },
+  {
+    "customer_id": 34,
+    "name": "Parth Desai",
+    "email": "parth.desai@example.com",
+    "city": "Delhi"
+  },
+  {
+    "customer_id": 35,
+    "name": "Raghav Soni",
+    "email": "raghav.soni@example.com",
+    "city": "Mumbai"
+  },
+  {
+    "customer_id": 36,
+    "name": "Muskaan Arora",
+    "email": "muskaan.arora@example.com",
+    "city": "Pune"
+  },
+  {
+    "customer_id": 37,
+    "name": "Aditi Goel",
+    "email": "aditi.goel@example.com",
+    "city": "Bengaluru"
+  },
+  {
+    "customer_id": 38,
+    "name": "Varun Sinha",
+    "city": "Hyderabad"
+  },
+  {
+    "customer_id": 39,
+    "name": "Manav Gupta",
+    "email": "manav.gupta@example.com",
+    "city": "Chennai"
+  },
+  {
+    "customer_id": 40,
+    "name": "Ira Menon",
+    "email": "ira.menon@example.com",
+    "city": "Ahmedabad"
+  },
+  {
+    "customer_id": 41,
+    "name": "Reyansh Kulshrestha",
+    "city": "Surat"
+  },
+  {
+    "customer_id": 42,
+    "name": "Tanvi Batra",
+    "email": "tanvi.batra@example.com",
+    "city": "Indore"
+  },
+  {
+    "customer_id": 43,
+    "name": "Akash Jha",
+    "email": "akash.jha@example.com",
+    "city": "Kochi"
+  },
+  {
+    "customer_id": 44,
+    "name": "",
+    "email": "manya.goyal@example.com",
+    "city": "Lucknow"
+  },
+  {
+    "customer_id": 45,
+    "name": "Ritesh Dubey",
+    "email": "ritesh.dubey@example.com",
+    "city": "Bhopal"
+  },
+  {
+    "customer_id": 46,
+    "name": "Kriti Anand",
+    "email": "kriti.anand@example.com",
+    "city": "Nagpur"
+  },
+  {
+    "customer_id": 47,
+    "name": "Om Prakash",
+    "email": "om.prakash@example.com",
+    "city": "Mysuru"
+  },
+  {
+    "customer_id": 48,
+    "name": "",
+    "email": "jiya.rastogi@example.com",
+    "city": "Kolkata"
+  },
+  {
+    "customer_id": 49,
+    "name": "Aryan Chawla",
+    "email": "aryan.chawla@example.com",
+    "city": "Jaipur"
+  },
+  {
+    "customer_id": 50,
+    "name": "",
+    "email": "simran.kohli@example.com",
+    "city": "Delhi"
+  }
+]

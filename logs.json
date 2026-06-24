@@ -1,0 +1,180 @@
+{
+    "type": "LogManager",
+    "all_logs": [
+        {
+            "level": "ERROR",
+            "message": "Database crashed",
+            "timestamp": 1782249786.464367
+        },
+        {
+            "level": "INFO",
+            "message": "User Logged in",
+            "timestamp": 1782249230.128885
+        },
+        {
+            "level": "INFO",
+            "message": "User logged in",
+            "timestamp": 1782234677.727844
+        },
+        {
+            "level": "ERROR",
+            "message": "Database crashed",
+            "timestamp": 1782233338.208952
+        },
+        {
+            "level": "INDFO",
+            "message": "message",
+            "timestamp": 1782233206.071556
+        },
+        {
+            "level": "ERROR",
+            "message": "Database crashed nth time",
+            "timestamp": 1782232082.441428
+        },
+        {
+            "level": "ERROR",
+            "message": "Net is down",
+            "timestamp": 1782231193.05632
+        },
+        {
+            "level": "WARNING",
+            "message": "Net is slow af",
+            "timestamp": 1782230500.432627
+        },
+        {
+            "level": "WARNING",
+            "message": "Net is crashing",
+            "timestamp": 1782230230.513072
+        },
+        {
+            "level": "WARNING",
+            "message": "Net is super slow",
+            "timestamp": 1782229680.872328
+        },
+        {
+            "level": "WARNING",
+            "message": "Net is slow",
+            "timestamp": 1782229413.664551
+        },
+        {
+            "level": "INFO",
+            "message": "User logged in again",
+            "timestamp": 1782229374.3677
+        },
+        {
+            "level": "WARNING",
+            "message": "Disk space is low",
+            "timestamp": 1782229277.064684
+        },
+        {
+            "level": "INFO",
+            "message": "user logged in",
+            "timestamp": 1782229122.568269
+        },
+        {
+            "level": "ERROR",
+            "message": "Net crashed",
+            "timestamp": 1782229021.239732
+        },
+        {
+            "level": "INFO",
+            "message": "user logged out",
+            "timestamp": 1782228765.160889
+        },
+        {
+            "level": "ERROR",
+            "message": "Database crashed",
+            "timestamp": 1782228622.822756
+        },
+        {
+            "level": "INFO",
+            "message": "User logged in",
+            "timestamp": 1782227893.592842
+        },
+        {
+            "level": "ERROR",
+            "message": "Database is crashingg",
+            "timestamp": 1782227598.336809
+        },
+        {
+            "level": "INFO",
+            "message": "User logged in",
+            "timestamp": 1782227108.328164
+        },
+        {
+            "level": "INFO",
+            "message": "User logged out",
+            "timestamp": 1782226439.80738
+        },
+        {
+            "level": "INFO",
+            "message": "User logged in",
+            "timestamp": 1782226347.153132
+        },
+        {
+            "level": "ERROR",
+            "message": "Database is crashingg",
+            "timestamp": 1782226259.615538
+        },
+        {
+            "level": "ERROR",
+            "message": "Disk exploded",
+            "timestamp": 1782226204.319891
+        },
+        {
+            "level": "INFO",
+            "message": "User logged in again",
+            "timestamp": 1782225948.577333
+        },
+        {
+            "level": "ERROR",
+            "message": "Net crashed agaib",
+            "timestamp": 1782225664.824991
+        },
+        {
+            "level": "ERROR",
+            "message": "Database is crashed",
+            "timestamp": 1782224611.032406
+        },
+        {
+            "level": "WARNING",
+            "message": "Net speed is slow",
+            "timestamp": 1782224444.32822
+        },
+        {
+            "level": "INFO",
+            "message": "User has logged in again",
+            "timestamp": 1782224422.048604
+        },
+        {
+            "level": "INFO",
+            "message": "User has logged in",
+            "timestamp": 1782223870.072398
+        },
+        {
+            "level": "INFO",
+            "message": "User logged out",
+            "timestamp": 1782223776.128008
+        },
+        {
+            "level": "WARNING",
+            "message": "Disk space is about to full",
+            "timestamp": 1782222384.577067
+        },
+        {
+            "level": "WARNING",
+            "message": "Disk space is about to be empty",
+            "timestamp": 1782222269.34535
+        },
+        {
+            "level": "ERROR",
+            "message": "Net crashed",
+            "timestamp": 1782221944.360198
+        },
+        {
+            "level": "ERROR",
+            "message": "Database has crashed",
+            "timestamp": 1782221782.336452
+        }
+    ]
+}

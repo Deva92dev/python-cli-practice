@@ -1,0 +1,362 @@
+[
+  {
+    "product_id": 1,
+    "name": "Wireless Mouse",
+    "category": "Electronics",
+    "price": -899,
+    "stock": 120
+  },
+  {
+    "product_id": 2,
+    "name": "Mechanical Keyboard",
+    "category": "Electronics",
+    "price": 3499,
+    "stock": 75
+  },
+  {
+    "product_id": 3,
+    "name": "Gaming Headset",
+    "category": "Electronics",
+    "price": 2799,
+    "stock": 90
+  },
+  {
+    "product_id": 4,
+    "name": "Laptop Stand",
+    "category": "Accessories",
+    "price": 1499,
+    "stock": 140
+  },
+  {
+    "product_id": 5,
+    "name": "USB-C Hub",
+    "category": "Accessories",
+    "price": -1999,
+    "stock": 85
+  },
+  {
+    "product_id": 6,
+    "name": "Smart Watch",
+    "category": "Electronics",
+    "price": 5999,
+    "stock": 60
+  },
+  {
+    "product_id": 7,
+    "name": "Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 2499,
+    "stock": 95
+  },
+  {
+    "product_id": 8,
+    "name": "Webcam HD",
+    "category": "Electronics",
+    "price": 1899,
+    "stock": 70
+  },
+  {
+    "product_id": 9,
+    "name": "24 Inch Monitor",
+    "category": "Electronics",
+    "price": 10999,
+    "stock": 40
+  },
+  {
+    "product_id": 10,
+    "name": "External SSD 500GB",
+    "category": "Storage",
+    "price": -4499,
+    "stock": 65
+  },
+  {
+    "product_id": 11,
+    "name": "",
+    "category": "Furniture",
+    "price": 7999,
+    "stock": 30
+  },
+  {
+    "product_id": 12,
+    "name": "Study Table",
+    "category": "Furniture",
+    "price": 5999,
+    "stock": 25
+  },
+  {
+    "product_id": 12,
+    "name": "Study Fan",
+    "category": "Furniture",
+    "price": 5999,
+    "stock": 25
+  },
+  {
+    "product_id": 13,
+    "name": "LED Desk Lamp",
+    "category": "Furniture",
+    "price": 999,
+    "stock": 110
+  },
+  {
+    "product_id": 14,
+    "name": "Notebook Pack",
+    "category": "Stationery",
+    "price": 299,
+    "stock": 250
+  },
+  {
+    "product_id": 15,
+    "name": "Gel Pen Set",
+    "category": "Stationery",
+    "price": -199,
+    "stock": 300
+  },
+  {
+    "product_id": 16,
+    "name": "Travel Backpack",
+    "category": "Bags",
+    "price": 1499,
+    "stock": 85
+  },
+  {
+    "product_id": 17,
+    "name": "Steel Water Bottle",
+    "category": "Home",
+    "price": 499,
+    "stock": 180
+  },
+  {
+    "product_id": 18,
+    "name": "Coffee Mug",
+    "category": "Home",
+    "price": 399,
+    "stock": 160
+  },
+  {
+    "name": "Yoga Mat",
+    "category": "Fitness",
+    "price": 899,
+    "stock": 100
+  },
+  {
+    "product_id": 20,
+    "name": "5kg Dumbbell",
+    "category": "Fitness",
+    "price": 1299,
+    "stock": 70
+  },
+  {
+    "product_id": 21,
+    "name": "Running Shoes",
+    "category": "Fashion",
+    "price": 2999,
+    "stock": 90
+  },
+  {
+    "product_id": 21,
+    "name": "Relaxing Shoes",
+    "category": "Fashion",
+    "price": 2999,
+    "stock": 90
+  },
+  {
+    "product_id": 22,
+    "name": "Cotton T-Shirt",
+    "category": "Fashion",
+    "price": 699,
+    "stock": 200
+  },
+  {
+    "product_id": 23,
+    "name": "Blue Jeans",
+    "category": "Fashion",
+    "price": 1499,
+    "stock": 130
+  },
+  {
+    "name": "Winter Hoodie",
+    "category": "Fashion",
+    "price": 1999,
+    "stock": 75
+  },
+  {
+    "product_id": 25,
+    "name": "Polarized Sunglasses",
+    "category": "Fashion",
+    "price": 999,
+    "stock": 95
+  },
+  {
+    "product_id": 26,
+    "name": "Power Bank 20000mAh",
+    "category": "Electronics",
+    "price": 1499,
+    "stock": 105
+  },
+  {
+    "product_id": 27,
+    "name": "Fast Charger",
+    "category": "Electronics",
+    "price": 599,
+    "stock": 170
+  },
+  {
+    "product_id": 28,
+    "name": "Phone Case",
+    "category": "Accessories",
+    "price": 399,
+    "stock": 220
+  },
+  {
+    "product_id": 29,
+    "name": "Tablet Stand",
+    "category": "Accessories",
+    "price": 799,
+    "stock": 115
+  },
+  {
+    "name": "Noise Cancelling Earbuds",
+    "category": "Electronics",
+    "price": 3999,
+    "stock": 80
+  },
+  {
+    "product_id": 31,
+    "name": "WiFi Router",
+    "category": "Electronics",
+    "price": 2499,
+    "stock": 60
+  },
+  {
+    "product_id": 32,
+    "name": "Inkjet Printer",
+    "category": "Electronics",
+    "price": 8999,
+    "stock": 20
+  },
+  {
+    "product_id": 33,
+    "name": "Printer Ink Cartridge",
+    "category": "Electronics",
+    "price": 1499,
+    "stock": 100
+  },
+  {
+    "name": "Magnetic Whiteboard",
+    "category": "Office",
+    "price": 1999,
+    "stock": 45
+  },
+  {
+    "product_id": 35,
+    "name": "Marker Set",
+    "category": "Office",
+    "price": 299,
+    "stock": 190
+  },
+  {
+    "product_id": 36,
+    "name": "Desk Organizer",
+    "category": "Office",
+    "price": 499,
+    "stock": 150
+  },
+  {
+    "product_id": 37,
+    "name": "Portable Fan",
+    "category": "Home",
+    "price": 899,
+    "stock": 110
+  },
+  {
+    "product_id": 38,
+    "name": "Air Purifier",
+    "category": "Home",
+    "price": 7999,
+    "stock": 35
+  },
+  {
+    "product_id": 39,
+    "name": "",
+    "category": "Home",
+    "price": 1499,
+    "stock": 85
+  },
+  {
+    "product_id": 40,
+    "name": "Rice Cooker",
+    "category": "Home Appliances",
+    "price": 2999,
+    "stock": 55
+  },
+  {
+    "product_id": 41,
+    "name": "Cookware Set",
+    "category": "Kitchen",
+    "price": 4999,
+    "stock": 40
+  },
+  {
+    "product_id": 42,
+    "name": "Knife Set",
+    "category": "Kitchen",
+    "price": 1499,
+    "stock": 90
+  },
+  {
+    "product_id": 43,
+    "name": "Cutting Board",
+    "category": "Kitchen",
+    "price": 599,
+    "stock": 130
+  },
+  {
+    "product_id": 44,
+    "name": "",
+    "category": "Fitness",
+    "price": 399,
+    "stock": 175
+  },
+  {
+    "product_id": 45,
+    "name": "Resistance Bands",
+    "category": "Fitness",
+    "price": 699,
+    "stock": 120
+  },
+  {
+    "product_id": 46,
+    "name": "Cycling Helmet",
+    "category": "Sports",
+    "price": 1999,
+    "stock": 65
+  },
+  {
+    "product_id": 47,
+    "name": "Badminton Racket",
+    "category": "Sports",
+    "price": 2499,
+    "stock": 70
+  },
+  {
+    "product_id": 48,
+    "name": "Football",
+    "category": "Sports",
+    "price": 899,
+    "stock": 100
+  },
+  {
+    "product_id": 49,
+    "name": "",
+    "category": "Sports",
+    "price": 3499,
+    "stock": 50
+  },
+  {
+    "product_id": 50,
+    "name": "Tennis Ball Pack",
+    "category": "Sports",
+    "price": 499,
+    "stock": 140
+  }
+]

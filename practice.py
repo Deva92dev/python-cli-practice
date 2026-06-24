@@ -1,5 +1,5 @@
-import csv
-
+import threading
+import time
 # # def main():
 # #     user_input = input("What is user input? ")
 
@@ -281,6 +281,10 @@ data = [
     {"date": 12, "amount": 1500, "category": "veg", "description": "food"},
 ]
 
+for each in data:
+    for key, val in each.items():
+        print(key)
+
 # total = [d["amount"] for d in data if "Food" in d["category"]]
 # all_categories = {d["category"] for d in data}
 # print(all_categories)
@@ -296,11 +300,35 @@ data = [
 
 # largest = max(data, key=lambda x: x["amount"])
 # print(largest)
-csv_file_path = (
-    r"C:\Users\acer\Desktop\AI ML Ideas Build\Python Practice\Basics\expense.csv"
-)
-fieldnames = data[0].keys()
-with open(csv_file_path, "w", newline="", encoding="utf-8") as csvfile:
-    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-    writer.writeheader()
-    writer.writerows(data)
+# csv_file_path = (
+#     r"C:\Users\acer\Desktop\AI ML Ideas Build\Python Practice\Basics\expense.csv"
+# )
+# fieldnames = data[0].keys()
+# with open(csv_file_path, "w", newline="", encoding="utf-8") as csvfile:
+#     writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+#     writer.writeheader()
+#     writer.writerows(data)
+
+
+# def crawl(link, delay=6):
+#     print(f"Crawl started for {link}")
+#     time.sleep(delay)
+#     print(f"Crawl ended for {link}")
+
+
+# links = [
+#     "https://python.org",
+#     "https://docs.python.org",
+#     "https://peps.python.org",
+# ]
+
+# threads = []
+# for link in links:
+#     t = threading.Thread(target=crawl, args=(link,), kwargs={"delay": 2})
+#     threads.append(t)
+
+# for t in threads:
+#     t.start()
+
+# for t in threads:
+#     t.join()

@@ -122,3 +122,7 @@ To perform analytics on data loaded via a dedicated save()/load() function, you 
 1. Return and Pass the Data (Recommended) The most Pythonic and standard approach is to have your load() function return the data object, which is then passed as an argument to your analytics functions. This ensures clear data flow and avoids global state.
 
 2. Use a Class or Global Variable (If Return is Not Possible) If your load_data function is constrained to have no return value (as noted in some Stack Overflow contexts), you must store the data in a class instance or a global variable so other functions can access it. However, using global variables is discouraged due to maintainability issues.
+
+### Loading/saving data in JSON file
+
+To save class objects to a JSON file in Python, you must first convert the objects into primitive data types (like dictionaries) because the json module cannot serialize custom class instances by default.
