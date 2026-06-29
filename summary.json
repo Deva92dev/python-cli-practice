@@ -1,0 +1,137 @@
+[
+    {
+        "dataset": "customers",
+        "results": {
+            "dataset": "customers",
+            "total_data": 55,
+            "missing_values": 7,
+            "empty_values": 3,
+            "total_errors": 7,
+            "duplicates": [
+                1,
+                18,
+                24,
+                28,
+                31
+            ],
+            "valid_record": 48,
+            "invalid_record": [
+                {
+                    "customer_id": 39,
+                    "name": "Manav Gupta",
+                    "email": "manav.gupta125example.com",
+                    "city": "Chennai"
+                },
+                {
+                    "customer_id": 43,
+                    "name": "Akash Jha",
+                    "email": "akash.jha123example.com",
+                    "city": "Kochi"
+                },
+                {
+                    "customer_id": 110,
+                    "name": "Kriti Anand",
+                    "email": "kriti.anand@example.com",
+                    "city": "Nagpur"
+                },
+                {
+                    "customer_id": 105,
+                    "name": "Aryan Chawla",
+                    "email": "aryan.chawla@example.com",
+                    "city": "Jaipur"
+                }
+            ]
+        }
+    },
+    {
+        "dataset": "products",
+        "results": {
+            "dataset": "products",
+            "total_data": 54,
+            "missing_values": 4,
+            "empty_values": 4,
+            "total_errors": 4,
+            "duplicates": [
+                6,
+                12,
+                16,
+                21
+            ],
+            "valid_record": 50,
+            "invalid_record": [
+                {
+                    "product_id": 1,
+                    "name": "Wireless Mouse",
+                    "category": "Electronics",
+                    "price": -899,
+                    "stock": 120
+                },
+                {
+                    "product_id": 5,
+                    "name": "USB-C Hub",
+                    "category": "Accessories",
+                    "price": -1999,
+                    "stock": 85
+                },
+                {
+                    "product_id": 10,
+                    "name": "External SSD 500GB",
+                    "category": "Storage",
+                    "price": -4499,
+                    "stock": 65
+                },
+                {
+                    "product_id": 15,
+                    "name": "Gel Pen Set",
+                    "category": "Stationery",
+                    "price": -199,
+                    "stock": 300
+                }
+            ],
+            "average_price": 2226.925925925926,
+            "most_common_category": "Electronics"
+        }
+    },
+    {
+        "dataset": "orders",
+        "results": {
+            "dataset": "orders",
+            "total_data": 104,
+            "missing_values": 9,
+            "empty_values": 0,
+            "total_errors": 9,
+            "duplicates": [
+                1,
+                10,
+                16,
+                20
+            ],
+            "valid_record": 95,
+            "invalid_record": [
+                {
+                    "order_id": 62,
+                    "customer_id": 6,
+                    "product_id": 23,
+                    "quantity": -2,
+                    "order_date": "2025-03-04",
+                    "status": "Delivered"
+                },
+                {
+                    "order_id": 67,
+                    "customer_id": 45,
+                    "product_id": 32,
+                    "quantity": -1,
+                    "order_date": "2025-03-09",
+                    "status": "Cancelled"
+                },
+                {
+                    "order_id": 70,
+                    "customer_id": 1,
+                    "quantity": -3,
+                    "order_date": "2025-03-12",
+                    "status": "Delivered"
+                }
+            ]
+        }
+    }
+]

@@ -126,3 +126,20 @@ To perform analytics on data loaded via a dedicated save()/load() function, you 
 ### Loading/saving data in JSON file
 
 To save class objects to a JSON file in Python, you must first convert the objects into primitive data types (like dictionaries) because the json module cannot serialize custom class instances by default.
+
+### To use the return value of one method in another method within the same class, you must call the first method using self and capture its result.
+
+If the computation is expensive or the value is needed by multiple methods, store the return value in an instance attribute (using self) during initialization or the first method call.
+
+self.data = None
+
+then use self.data in the same class
+
+Use self.method() to invoke another method.
+Use self.attribute to store data persistently across methods, avoiding redundant calculations.
+
+### You can pass one class as argument in another class
+
+### Asyncio
+
+A function is only meaningfully asynchronous if it performs awaitable operations that allow the event loop to switch to other tasks. Simply adding async to a synchronous function doesn't change how the underlying work is performed

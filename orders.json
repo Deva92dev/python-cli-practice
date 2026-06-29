@@ -8,6 +8,14 @@
     "status": "Delivered"
   },
   {
+    "order_id": 1,
+    "customer_id": 12,
+    "product_id": 5,
+    "quantity": 2,
+    "order_date": "2025-01-05",
+    "status": "Delivered"
+  },
+  {
     "order_id": 2,
     "customer_id": 3,
     "product_id": 21,
@@ -80,6 +88,14 @@
     "status": "Delivered"
   },
   {
+    "order_id": 10,
+    "customer_id": 9,
+    "product_id": 38,
+    "quantity": 1,
+    "order_date": "2025-01-10",
+    "status": "Delivered"
+  },
+  {
     "order_id": 11,
     "customer_id": 17,
     "product_id": 23,
@@ -128,6 +144,14 @@
     "status": "Delivered"
   },
   {
+    "order_id": 16,
+    "customer_id": 45,
+    "product_id": 14,
+    "quantity": 5,
+    "order_date": "2025-01-15",
+    "status": "Delivered"
+  },
+  {
     "order_id": 17,
     "customer_id": 11,
     "product_id": 46,
@@ -149,6 +173,14 @@
     "product_id": 40,
     "quantity": 1,
     "order_date": "2025-01-18",
+    "status": "Delivered"
+  },
+  {
+    "order_id": 20,
+    "customer_id": 29,
+    "product_id": 22,
+    "quantity": 3,
+    "order_date": "2025-01-19",
     "status": "Delivered"
   },
   {
@@ -617,7 +649,7 @@
     "order_id": 78,
     "customer_id": 5,
     "product_id": 10,
-    "quantity": 2,
+    "quantity": 0,
     "order_date": "2025-03-20",
     "status": "Delivered"
   },
@@ -663,7 +695,7 @@
     "order_id": 84,
     "customer_id": 48,
     "product_id": 3,
-    "quantity": 1,
+    "quantity": 0,
     "order_date": "2025-03-26",
     "status": "Pending"
   },

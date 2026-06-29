@@ -1,5 +1,3 @@
-import threading
-import time
 # # def main():
 # #     user_input = input("What is user input? ")
 

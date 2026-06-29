@@ -7,10 +7,11 @@
   },
   {
     "customer_id": 1,
-    "name": "Aarav Sharma Rai",
+    "name": "Aarav Sharma",
     "email": "aarav.sharma@example.com",
     "city": "Jaipur"
   },
+
   {
     "customer_id": 2,
     "name": "Vivaan Gupta",
@@ -115,10 +116,11 @@
   },
   {
     "customer_id": 18,
-    "name": "Karan Bansal Singh",
+    "name": "Karan Bansal",
     "email": "karan.bansal@example.com",
     "city": "Delhi"
   },
+
   {
     "customer_id": 19,
     "name": "Sneha Arora",
@@ -155,7 +157,7 @@
   },
   {
     "customer_id": 24,
-    "name": "Aman Yadav Rai",
+    "name": "Aman Yadav",
     "email": "aman.yadav@example.com",
     "city": "Ahmedabad"
   },
@@ -182,6 +184,12 @@
     "city": "Lucknow"
   },
   {
+    "customer_id": 28,
+    "name": "Dev Malviya",
+    "email": "dev.malviya@example.com",
+    "city": "Lucknow"
+  },
+  {
     "customer_id": 29,
     "name": "Naina Kapoor",
     "city": "Bhopal"
@@ -191,6 +199,12 @@
     "name": "Riya Bhatt",
     "email": "riya.bhatt@example.com",
     "city": "Nagpur"
+  },
+  {
+    "customer_id": 31,
+    "name": "Siddharth Roy",
+    "email": "siddharth.roy@example.com",
+    "city": "Mysuru"
   },
   {
     "customer_id": 31,
@@ -242,7 +256,7 @@
   {
     "customer_id": 39,
     "name": "Manav Gupta",
-    "email": "manav.gupta@example.com",
+    "email": "manav.gupta125example.com",
     "city": "Chennai"
   },
   {
@@ -265,7 +279,7 @@
   {
     "customer_id": 43,
     "name": "Akash Jha",
-    "email": "akash.jha@example.com",
+    "email": "akash.jha123example.com",
     "city": "Kochi"
   },
   {
@@ -281,7 +295,7 @@
     "city": "Bhopal"
   },
   {
-    "customer_id": 46,
+    "customer_id": 110,
     "name": "Kriti Anand",
     "email": "kriti.anand@example.com",
     "city": "Nagpur"
@@ -299,7 +313,7 @@
     "city": "Kolkata"
   },
   {
-    "customer_id": 49,
+    "customer_id": 105,
     "name": "Aryan Chawla",
     "email": "aryan.chawla@example.com",
     "city": "Jaipur"

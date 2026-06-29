@@ -42,6 +42,13 @@
     "stock": 60
   },
   {
+    "product_id": 6,
+    "name": "Smart Watch",
+    "category": "Electronics",
+    "price": 5999,
+    "stock": 60
+  },
+  {
     "product_id": 7,
     "name": "Bluetooth Speaker",
     "category": "Electronics",
@@ -110,6 +117,13 @@
     "category": "Stationery",
     "price": -199,
     "stock": 300
+  },
+  {
+    "product_id": 16,
+    "name": "Travel Backpack",
+    "category": "Bags",
+    "price": 1499,
+    "stock": 85
   },
   {
     "product_id": 16,
